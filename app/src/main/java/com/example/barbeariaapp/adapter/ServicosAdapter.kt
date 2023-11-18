@@ -23,7 +23,7 @@ class ServicosAdapter(private val context: Context,private val listaServicos:Mut
         holder.txtServico.text = listaServicos[position].nome
     }
     inner class ServicosViewHolder(binding: ServicosItemBinding): RecyclerView.ViewHolder(binding.root){
-        val imgServicos = binding.imgServicos
+        val imgServicos = binding.imgServico
         val txtServico = binding.txtServico
     }
 }
