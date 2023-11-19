@@ -2,6 +2,7 @@
 
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="true">
@@ -68,17 +69,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LOGIN"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textStyle="bold"
         android:padding="15dp"
-        app:conerradius="15dp"
+        android:backgroundTint="#03A9F4"
         android:textSize="18sp"
-        android:backgroundTint="@color/alizarin"
         android:layout_marginTop="20dp"
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="20dp"
-        />
+        tools:ignore="ExtraText" />
 
 </LinearLayout>
 </ScrollView>
